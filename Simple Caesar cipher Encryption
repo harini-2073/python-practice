@@ -1,0 +1,9 @@
+text = input("Enter message: ")
+shift = 3
+
+encrypted = ""
+
+for char in text:
+    encrypted += chr(ord(char) + shift)
+
+print("Encrypted message:", encrypted)
